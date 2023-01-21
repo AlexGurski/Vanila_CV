@@ -1,0 +1,16 @@
+.about{
+    width: 70%;
+    margin: 0;
+    border: 1px solid red;
+    padding: 15px;
+}
+.about__name{
+   font-size: 38px;
+   color: #FFFFFF; 
+   margin: 0 0 10px 0;
+}
+.about__specifity{
+ font-size: 25px;  
+  color: rgb(227, 227, 227); 
+  margin-bottom: 40px; 
+}
