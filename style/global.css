@@ -1,19 +1,23 @@
-@font-face {
-	font-family: 'ZevidaDemo'; 
-	src: url(../assets/fonts/ZevidaDemo.ttf); 
-}
+
 @font-face {
 	font-family: 'Zimra'; 
 	src: url(../assets/fonts/Zimra-Regular.otf); 
+}
+@font-face {
+	font-family: 'ZevidaDemo'; 
+	src: url(../assets/fonts/ZevidaDemo.ttf); 
 }
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+}
+html { 
+    font-size: 10px; 
     font-family: "Zimra";
 }
-
 body{
     background: linear-gradient(90deg, #b9deed, #efefef);
     width: 100vw;
@@ -25,7 +29,7 @@ body{
 }
 header{
     width: 100%;
-    height: 80px;
+    height: 8rem;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -34,11 +38,11 @@ header{
 main{
     width: 1280px;
     max-width: 90vw;
-    height: calc(100% - 80px);
-    padding: 30px 30px 0 30px;
+    height: calc(100% - 8rem);
+    padding: 3rem 3rem 0 3rem;
     display: flex;
     background-color: #FFFFFF;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-    background: linear-gradient(to bottom, rgb(36, 37, 90) 150px, #FFFFFF 0%);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    background: linear-gradient(to bottom, rgb(36, 37, 90) 15rem, #FFFFFF 0%);
     margin: 0 auto;
 }
