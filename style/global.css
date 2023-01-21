@@ -1,7 +1,17 @@
+@font-face {
+	font-family: 'ZevidaDemo'; 
+	src: url(./assets/fonts/ZevidaDemo.ttf); 
+}
+@font-face {
+	font-family: 'Zimra'; 
+	src: url(./assets/fonts/Zimra-Regular.otf); 
+}
+
 *{
     margin:  0 auto;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Zimra";
 }
 
 body{
@@ -14,13 +24,23 @@ body{
 }
 header{
     width: 100%;
-    height: 50px;
+    height: 80px;
     display: flex;
     align-items: center;
+    justify-content: flex-start;
 }
+
 main{
     max-width: 1440px;
-    height: calc(100% - 50px);
+    height: calc(100% - 80px);
     background-color: #FFFFFF;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    background: linear-gradient(to bottom, rgb(70, 71, 174) 150px, #FFFFFF 0%);
+    padding: 30px;
+}
+@media screen and (max-width:1440px) {
+    main{
+        max-width: 90vw;
+    }
+    
 }
