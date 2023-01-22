@@ -74,3 +74,8 @@ main{
     background: linear-gradient(to bottom, rgb(36, 37, 90) 15rem, #FFFFFF 0%);
     margin: 0 auto;
 }
+@media screen and (max-width:1200px) {
+    html{
+        font-size: 8px;
+    }
+}

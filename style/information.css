@@ -20,8 +20,8 @@
   gap:1rem;
 }
 .information__skills div{
-  width: 40px;
-  height: 40px;
+  width: 4rem;
+  height: 4rem;
 }
 .left_contact {
     display: flex;
