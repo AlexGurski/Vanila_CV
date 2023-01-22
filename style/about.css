@@ -42,10 +42,11 @@
 }
 .about__title_article{
   font-size: 3rem;
-  padding-bottom: 1rem;
+
   font-size: "ZevidaDemo";
 }
 .about__biography{
+  padding-top: 1rem;
   font-size: 1.6rem;
 }
 .about__hobby{
