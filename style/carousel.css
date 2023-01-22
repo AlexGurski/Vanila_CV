@@ -32,8 +32,8 @@
   overflow: hidden;
 }
 #carousel-wrapper #menu #current-option #current-option-text1 {
-  font-size: 1.6rem;
-  line-height: 3rem;
+  font-size: 3rem;
+  line-height: 4.2rem;
   width: 220px;
   height: 200px;
   display: flex;
@@ -64,7 +64,7 @@
   justify-content: flex-start;
 }
 #carousel-wrapper #menu #current-option #current-option-text2 {
-  font-size: 0.8rem;
+  font-size: 2rem;
   width: 220px;
   height: 40px;
   display: flex;
@@ -301,4 +301,4 @@
     transform: translate(140px, 0) scale(1);
     opacity: 1;
   }
-}/*# sourceMappingURL=carousel.css.map */
+}
