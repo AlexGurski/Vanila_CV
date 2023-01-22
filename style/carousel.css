@@ -7,9 +7,11 @@
   justify-content: center;
   overflow: hidden;
 }
+
 #carousel-wrapper #menu {
   height: 380px;
   width: 720px;
+  max-width: 100%;
   overflow: hidden;
   font-weight: 700;
   line-height: 1;
