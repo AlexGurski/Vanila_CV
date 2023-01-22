@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="./style/global.css">
     <link rel="stylesheet" href="./style/information.css">
     <link rel="stylesheet" href="./style/about.css">
+    <link rel="stylesheet" href="./style/carousel.css">
     <title>Alexandr Gurski</title>     
 </head>
 
@@ -27,7 +28,7 @@
             <article>
                 <h2 class="about__title_article">ABOUT ME</h2>
                 <p class="about__biography about__border"> 
-                    My name is Alexander, I am 29 years old, born and living in Baranovichi in 2009.<br>
+                    My name is Alexander, I am 29 years old, born and living in Baranovichi<br>
                     I started learning programming in 2009 when I entered he Baranovichi State High School of Light Industry. There I got basic knowledge in OOP and algorithms.
                     Then I was taken to the army, where my knowledge did not increase. At the end of my service life, there was a difficult economic situation in Belarus, there was no work, and I followed the simplest path - to stay in the army.
                     While studying at BarSU, I liked web development, my diploma was a Baranovichi coffee website working for a year.
@@ -45,14 +46,6 @@
                 </p>
             </article>
             <article>
-                <h2 class="about__title_article">WORK EXPIRIENSE</h2>
-                <p class="about__biography about__border"> 2009 when I entered college. There I got basic knowledge in OOP and algorithms.
-                    Then I was taken to the army, where my knowledge did not increase. At the end of my service life, there was a difficult economic situation in Belarus, there was no work, and I followed the simplest path - to stay in the army.<br>
-                    While studying at BarSU, I liked web development, my diploma was a Baranovichi coffee website working for a year.<br>
-                    Since the beginning of this year, I decided to make every effort to return to the roots and become a programmer. To do this, I teach react, JS. I also wrote several projects, a diploma for a friend on react, a personal portfolio website.
-                </p>
-            </article>
-            <article>
                 <h2 class="about__title_article">MY PROJECTS</h2>
                 <p class="about__biography about__border"> 2009 when I entered college. There I got basic knowledge in OOP and algorithms.
                     Then I was taken to the army, where my knowledge did not increase. At the end of my service life, there was a difficult economic situation in Belarus, there was no work, and I followed the simplest path - to stay in the army.<br>
@@ -61,12 +54,28 @@
                 </p>
             </article>
             <article>
-                <h2 class="about__title_article">HOBBY</h2>
+                <h2 class="about__title_article">WORK EXPIRIENSE</h2>
                 <p class="about__biography about__border"> 2009 when I entered college. There I got basic knowledge in OOP and algorithms.
                     Then I was taken to the army, where my knowledge did not increase. At the end of my service life, there was a difficult economic situation in Belarus, there was no work, and I followed the simplest path - to stay in the army.<br>
                     While studying at BarSU, I liked web development, my diploma was a Baranovichi coffee website working for a year.<br>
                     Since the beginning of this year, I decided to make every effort to return to the roots and become a programmer. To do this, I teach react, JS. I also wrote several projects, a diploma for a friend on react, a personal portfolio website.
                 </p>
+            </article>
+            <article class="about__hobby">
+                <h2 class="about__title_article">HOBBY</h2>
+                <h3>I like to travel and take beautiful photos</h3>
+                <div id="carousel-wrapper">
+                    <div id="menu">
+                        <div id="current-option">
+                          <span id="current-option-text1" data-previous-text="" data-next-text=""></span>
+                          <span id="current-option-text2" data-previous-text="" data-next-text=""></span>
+                        </div>
+                        <button id="previous-option"></button>
+                        <button id="next-option"></button>
+                      
+                    </div>
+                    <div id="image"></div>
+                  </div>
             </article>
         </section>
         <div class="pencil"></div>
@@ -75,5 +84,5 @@
     </footer>
 </div>
 </body>
-
+<script type="text/javascript" src="./function/carousel.js"></script>
 </html>

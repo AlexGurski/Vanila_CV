@@ -48,3 +48,8 @@
 .about__biography{
   font-size: 1.6rem;
 }
+.about__hobby{
+  position: relative;
+  width: 100%;
+  height: 500px;
+}
