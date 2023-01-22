@@ -7,6 +7,11 @@
 	font-family: 'ZevidaDemo'; 
 	src: url(../assets/fonts/ZevidaDemo.ttf); 
 }
+@font-face {
+	font-family: 'Choplin'; 
+	src: url(../assets/fonts/Choplin-ExtraLight.ttf); 
+}
+
 
 *{
     margin: 0;
@@ -39,7 +44,6 @@ a{
 }
 html { 
     font-size: 10px; 
-    font-family: "Zimra";
 }
 body{
     background: linear-gradient(90deg, #b9deed, #efefef);
@@ -48,7 +52,7 @@ body{
     max-width: 100vw;
     max-height: 100vh;
     overflow: hidden;
-    
+    font-family: "Choplin";
 }
 header{
     width: 100%;
