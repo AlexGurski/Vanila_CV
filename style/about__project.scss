@@ -60,6 +60,18 @@
           @extend .js;
           background-image: url(../assets/images/png/TensorFlow.png);
         }
+        .typescript{
+          @extend .js;
+          background-image: url(../assets/images/png/typescript.png);
+        }
+        .angular{
+          @extend .js;
+          background-image: url(../assets/images/png/angular.png);
+        }
+        .ionic{
+          @extend .js;
+          background-image: url(../assets/images/png/ionic.png);
+        }
       }
   } 
 }
