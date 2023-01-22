@@ -27,8 +27,8 @@
   background: rgb(227, 227, 227);
   position: absolute;
   bottom: -3rem;
-  right: -1.5rem;
-  width: calc(100% + 1.5rem);
+  right: -2.5rem;
+  width: calc(100% + 2.5rem);
   height: 1rem;
 }
 .about__name{
