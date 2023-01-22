@@ -32,37 +32,47 @@
   justify-content: space-around;
   width: 100%;
 }
-.right_project_item_stack .js, .right_project_item_stack .ionic, .right_project_item_stack .angular, .right_project_item_stack .typescript, .right_project_item_stack .tensorflow, .right_project_item_stack .redux, .right_project_item_stack .node, .right_project_item_stack .html, .right_project_item_stack .scss, .right_project_item_stack .react {
+
+.js, .ionic, .angular, .typescript, .tensorflow, .redux, .node, .html, .scss, .react {
   background-image: url(../assets/images/png/js.png);
   background-repeat: no-repeat;
   background-size: contain;
   width: 2em;
   height: 2em;
 }
-.right_project_item_stack .react {
+
+.react {
   background-image: url(../assets/images/png/react.png);
 }
-.right_project_item_stack .scss {
+
+.scss {
   background-image: url(../assets/images/png/scss.png);
 }
-.right_project_item_stack .html {
+
+.html {
   background-image: url(../assets/images/png/html.png);
 }
-.right_project_item_stack .node {
+
+.node {
   background-image: url(../assets/images/png/node.png);
 }
-.right_project_item_stack .redux {
+
+.redux {
   background-image: url(../assets/images/png/redux.png);
 }
-.right_project_item_stack .tensorflow {
+
+.tensorflow {
   background-image: url(../assets/images/png/TensorFlow.png);
 }
-.right_project_item_stack .typescript {
+
+.typescript {
   background-image: url(../assets/images/png/typescript.png);
 }
-.right_project_item_stack .angular {
+
+.angular {
   background-image: url(../assets/images/png/angular.png);
 }
-.right_project_item_stack .ionic {
+
+.ionic {
   background-image: url(../assets/images/png/ionic.png);
 }/*# sourceMappingURL=about__project.css.map */

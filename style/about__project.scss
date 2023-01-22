@@ -29,49 +29,50 @@
         display: flex;
         justify-content: space-around;
         width: 100%;
-        .js{
-          background-image: url(../assets/images/png/js.png);
-          background-repeat: no-repeat;
-          background-size: contain;
-          width: 2em;
-          height: 2em;
-        }
-        .react{
-          @extend .js;
-          background-image: url(../assets/images/png/react.png);
-        }
-        .scss{
-          @extend .js;
-          background-image: url(../assets/images/png/scss.png);
-        }
-        .html{
-          @extend .js;
-          background-image: url(../assets/images/png/html.png);
-        }
-        .node{
-          @extend .js;
-          background-image: url(../assets/images/png/node.png);
-        }
-        .redux{
-          @extend .js;
-          background-image: url(../assets/images/png/redux.png);
-        }
-        .tensorflow{
-          @extend .js;
-          background-image: url(../assets/images/png/TensorFlow.png);
-        }
-        .typescript{
-          @extend .js;
-          background-image: url(../assets/images/png/typescript.png);
-        }
-        .angular{
-          @extend .js;
-          background-image: url(../assets/images/png/angular.png);
-        }
-        .ionic{
-          @extend .js;
-          background-image: url(../assets/images/png/ionic.png);
-        }
+       
       }
   } 
+}
+.js{
+  background-image: url(../assets/images/png/js.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 2em;
+  height: 2em;
+}
+.react{
+  @extend .js;
+  background-image: url(../assets/images/png/react.png);
+}
+.scss{
+  @extend .js;
+  background-image: url(../assets/images/png/scss.png);
+}
+.html{
+  @extend .js;
+  background-image: url(../assets/images/png/html.png);
+}
+.node{
+  @extend .js;
+  background-image: url(../assets/images/png/node.png);
+}
+.redux{
+  @extend .js;
+  background-image: url(../assets/images/png/redux.png);
+}
+.tensorflow{
+  @extend .js;
+  background-image: url(../assets/images/png/TensorFlow.png);
+}
+.typescript{
+  @extend .js;
+  background-image: url(../assets/images/png/typescript.png);
+}
+.angular{
+  @extend .js;
+  background-image: url(../assets/images/png/angular.png);
+}
+.ionic{
+  @extend .js;
+  background-image: url(../assets/images/png/ionic.png);
 }
