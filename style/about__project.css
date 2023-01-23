@@ -33,7 +33,7 @@
   width: 100%;
 }
 
-.js, .ionic, .angular, .typescript, .tensorflow, .redux, .node, .html, .scss, .react {
+.js, .ionic, .angular, .typescript, .tensorflow, .redux, .node, .html, .scss, .react{
   background-image: url(../assets/images/png/js.png);
   background-repeat: no-repeat;
   background-size: contain;
@@ -75,4 +75,4 @@
 
 .ionic {
   background-image: url(../assets/images/png/ionic.png);
-}/*# sourceMappingURL=about__project.css.map */
+}

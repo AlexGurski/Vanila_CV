@@ -7,6 +7,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+    overflow-y: auto;
 }
 @media screen and (max-width:1200px) {
  .information{display: none;}
@@ -19,10 +20,14 @@
 }
 .information__skills{
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   gap:1rem;
 }
-.information__skills div{
+.information__skills_list{
+ display: flex;
+ gap:1rem;
+}
+.information__skills_list div{
   width: 4rem;
   height: 4rem;
 }
@@ -31,7 +36,7 @@
     flex-direction: column;
     gap:1rem;
     width: 100%;
-    margin: 5rem 0;
+    margin: 3rem 0;
   }
   .left_contact li {
     width: 100%;
@@ -43,7 +48,7 @@
     font-size: 2rem;
     font-weight: 900;
   }
-  .left_contact li .linked, .left_contact li .web, .left_contact li .email, .left_contact li .teleg {
+  .left_contact li .linked, .left_contact li .web, .left_contact li .email, .left_contact li .teleg, .github {
     width: 3rem;
     height: 3rem;
     background: url(../assets/images/png/linked.png);
@@ -63,6 +68,11 @@
   }
   .left_contact li .web {
     background: url(../assets/images/png/web.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  .left_contact li .github {
+    background: url(../assets/images/png/github.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
   }
