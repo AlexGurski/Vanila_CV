@@ -16,12 +16,12 @@ const text1_options = [
   ];
   const color_options = ["#EBB9D2", "#FE9968", "#7FE0EB", "#6CE5B1", "#FE9968", "#7FE0EB",];
   const image_options = [
-    "../assets/images/jpg/alArab.jpg",
-    "../assets/images/jpg/burjHalifa.jpg",
-    "../assets/images/jpg/insbruk.jpg",
-    "../assets/images/jpg/redDesert.jpg",
-    "../assets/images/jpg/segrada.jpg",
-    "../assets/images/jpg/venezia.jpg",
+    "./assets/images/jpg/alArab.jpg",
+    "./assets/images/jpg/burjHalifa.jpg",
+    "./assets/images/jpg/insbruk.jpg",
+    "./assets/images/jpg/redDesert.jpg",
+    "./assets/images/jpg/segrada.jpg",
+    "./assets/images/jpg/venezia.jpg",
   ];
   var i = 0;
   const currentOptionText1 = document.getElementById("current-option-text1");
